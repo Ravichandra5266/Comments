@@ -1,0 +1,136 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #dee0e3;
+  padding: 10px;
+}
+.title {
+  color: #1e293b;
+  font-weight: bolder;
+  text-align: center;
+}
+.sm-image-card {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .sm-image-card {
+    display: none;
+  }
+}
+.sm-img {
+  width: 250px;
+}
+.lg-card-flex {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .lg-card-flex {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+.comment-input-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .comment-input-card {
+    align-items: flex-start;
+    width: 50%;
+  }
+}
+
+.input-card-title {
+  color: #1e293b;
+  font-weight: 900;
+  text-align: center;
+}
+.name-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid ghostwhite;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  outline: none;
+}
+.textarea-input {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid ghostwhite;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+  outline: none;
+}
+.add-cmt-btn {
+  background-color: #0284c7;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.lg-image-card {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-image-card {
+    display: block;
+  }
+}
+.lg-img {
+  width: 250px;
+}
+hr {
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.comments-count-card {
+  display: flex;
+  align-items: center;
+}
+.comments-count-card b {
+  background-color: #0284c7;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments-count-card span {
+  font-weight: bold;
+  margin-left: 10px;
+}

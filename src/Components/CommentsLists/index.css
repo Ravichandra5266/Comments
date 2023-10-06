@@ -1,0 +1,50 @@
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo {
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-card-cnt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cmt-title {
+  font-weight: bold;
+  font-size: medium;
+}
+.cmt-para {
+  font-weight: 500;
+}
+.postTime {
+  margin-left: 20px;
+  font-weight: 500;
+}
+.item-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item-controls button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.item-controls img {
+  width: 25px;
+}
